@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "AYŞE AYAZ"
+title                    : ""
 title_separator          : "-"
 name                     :  &name  "AYŞE AYAZ"
 description              : &description " BUSINESS INTELLIGENCE ANALYST"
@@ -40,7 +40,8 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "aystpc@hotmail.com" /  "ayazays@gmail.com"
+                          
   generatedFields:
     date:
       type               : "date"
@@ -81,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "AYŞE AYAZ"
-  avatar           : ".png"
+  avatar           : "20210730114859_IMG_3395_3 (1).png"
   bio              : 
   location         : "TURKEY/BURSA"
   employer         : "BI EXPERT"
